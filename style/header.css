@@ -1,0 +1,26 @@
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    padding: 30px 0px 20px 0px;
+    min-height: 150px;
+    text-align: center;
+}
+
+header > h1{
+    font-weight: normal;
+    color: white;
+    font-family: var(--fonte-destaque);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+header > p{
+    color: white;
+    padding: 0px 10px;
+    max-width: 600px;
+    margin-bottom: 20px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+}
